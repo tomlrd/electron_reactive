@@ -1,0 +1,22 @@
+{
+  "name": "k",
+  "version": "0.0.1",
+  "description": "Minimal reactive electron app - ejs + jQ",
+  "main": "./main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win=portable"
+  },
+  "repository": "",
+  "author": "thomas laroudie",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "latest",
+    "ejs-electron": "latest",
+    "electron-builder": "latest"
+  },
+  "dependencies": {
+    "ejs-electron": "latest",
+    "jquery": "latest"
+  }
+}
